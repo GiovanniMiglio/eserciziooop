@@ -23,6 +23,6 @@ class Storia extends Category {
   }
 }
 $categories = [new Attualità(), new Sport(), new Gossip(), new Storia()];
-foreach ($categories as $category) {
-  echo $category->getCategory();
-}
+// foreach ($categories as $category) {
+//   echo $category->getCategory();
+// }
